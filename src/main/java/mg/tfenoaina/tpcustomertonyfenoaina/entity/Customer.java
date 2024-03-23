@@ -168,12 +168,12 @@ public class Customer implements Serializable {
         this.creditLimit = creditLimit;
     }
 
-    public Discount getDiscountCode() {
+    public Discount getDiscount() {
         return discount;
     }
 
-    public void setDiscountCode(Discount discountCode) {
-        this.discount = discountCode;
+    public void setDiscount(Discount discount) {
+        this.discount = discount;
     }
 
     public MicroMarket getZip() {
