@@ -38,7 +38,7 @@ public class DiscountManager {
         em.persist(discount);
     }
 
-    public Discount findById(int idDiscount) {
+    public Discount findById(String  idDiscount) {
         return em.find(Discount.class, idDiscount);
     }
     
